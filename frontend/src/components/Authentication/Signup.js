@@ -102,7 +102,7 @@ const Signup = () => {
       data.append("file", pics);
       data.append("upload_preset", "chat-app");
       data.append("cloud_name", "piyushproj");
-      fetch("https://api.cloudinary.com/v1_1/piyushproj/image/upload", {
+      fetch("https://api.cloudinary.com/v1_1/dpoy18qsd/image/upload", {
         method: "post",
         body: data,
       })
