@@ -99,9 +99,9 @@ const Signup = () => {
     console.log(pics);
     if (pics.type === "image/jpeg" || pics.type === "image/png") {
       const data = new FormData();
-      data.append("file", pics);
-      data.append("upload_preset", "chat-app");
-      data.append("cloud_name", "piyushproj");
+       data.append("file", pics);
+      data.append("upload_preset", "Sandesh-App");
+      data.append("cloud_name", "dpoy18qsd");
       fetch("https://api.cloudinary.com/v1_1/dpoy18qsd/image/upload", {
         method: "post",
         body: data,
